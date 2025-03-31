@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import { messaging } from '../firebase';
 import { getToken, onMessage } from 'firebase/messaging';
-import { toast, ToastContainer } from 'react-toastify';
+import { toast, ToastContainer } from 'react/toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useTasks } from './TaskContext';
 
